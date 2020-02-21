@@ -7,7 +7,9 @@
 #' where the frequency of the character strings in the list.
 #'
 #' @examples
-#' wordList <- list("2006"=c("HSV", "BVB", "FCB"), "2007"=c("BVB", "VFB", "STP"), "2008"=c("VFL", "BVB", "HSV"))
+#' wordList <- list("2006"=c("HSV", "BVB", "FCB"), 
+#'   "2007"=c("BVB", "VFB", "STP"), 
+#'   "2008"=c("VFL", "BVB", "HSV"))
 #' list2incidenceMatrix(wordList, type="binary")
 #' 
 #' letterList <- list("First"=c("A", "a", "A", "a"), "Second"=c("B", "b", "A"))
