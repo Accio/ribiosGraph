@@ -12,11 +12,13 @@ Authors@R:
 Maintainer: Jitao David Zhang <jitao_david.zhang@roche.com>
 Description: Tools to manipulate and visualize graphs (networks) in the RIBIOS software suite.
 Depends:
-    igraph,
+    igraph
+Imports:
     magrittr,
     plotly,
     ribiosUtils
 License: GPL(>=3)
 URL: https://github.com/bedapub/ribiosGraph
+Remotes: bedapub/ribiosUtils
 BugReports: https://github.com/bedapub/ribiosGraph/issues
 RoxygenNote: 7.0.2
