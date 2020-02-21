@@ -1,6 +1,6 @@
-Package: ribiosNetwork
+Package: ribiosGraph
 Type: Package
-Title: Network analysis in RIBIOS
+Title: Manipulate and visualize graphs in the RIBIOS software suite
 Version: 1.0-14
 Date: 2020-02-21
 Authors@R:  
@@ -10,13 +10,13 @@ Authors@R:
            email = "jitao_david.zhang@roche.com",
            comment = c(ORCID="0000-0002-3085-0909")))
 Maintainer: Jitao David Zhang <jitao_david.zhang@roche.com>
-Description: Tools to manipulate and visualize networks (graphs) in the RIBIOS software suite.
+Description: Tools to manipulate and visualize graphs (graphs) in the RIBIOS software suite.
 Depends:
     igraph,
     magrittr,
     plotly,
     ribiosUtils
 License: GPL(>=3)
-URL: https://github.com/Accio/ribiosUtils
-BugReports: https://github.com/Accio/ribiosUtils/issues
+URL: https://github.com/Accio/ribiosGraph
+BugReports: https://github.com/Accio/ribiosGraph/issues
 RoxygenNote: 7.0.2

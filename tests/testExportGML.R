@@ -1,4 +1,4 @@
-library(ribiosNetwork)
+library(ribiosGraph)
 g <- barabasi.game(100, directed=FALSE)
 V(g)$label <- c(paste("node", 1:99, sep=""),"--")
 V(g)$name <- 1:100
