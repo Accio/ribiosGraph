@@ -1,7 +1,7 @@
 Package: ribiosGraph
 Type: Package
 Title: Manipulate and visualize graphs in the RIBIOS software suite
-Version: 1.0-14
+Version: 1.0-15
 Date: 2020-02-21
 Authors@R:  
   c(person(given = "Jitao David",
