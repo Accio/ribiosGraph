@@ -1,5 +1,6 @@
 library(ribiosGraph)
-g <- barabasi.game(100, directed=FALSE)
+library(igraph)
+g <- igraph::barabasi.game(100, directed=FALSE)
 V(g)$label <- c(paste("node", 1:99, sep=""),"--")
 V(g)$name <- 1:100
 V(g)$isInput <- rbinom(100,1, 0.5)

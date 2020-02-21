@@ -5,7 +5,7 @@
 #' 
 #' Extra columns besides the first two are used as edge attribtues. See example below.
 #'
-#' @importFrom igraph graph.empty add.vertices add.edges is.bipartite
+#' @importFrom igraph graph.empty add.vertices add.edges is.bipartite E
 #' @export
 #' @examples 
 #' myDataFrame <- data.frame(Alpha=c("A", "E", "O", "U", "B", "D"), 
@@ -16,7 +16,7 @@
 #'   Type=c("Vowel", "Vowel", "Vowel", "Vowel", "Consonance", "Consonance"),
 #'   Example=c("BAT", "BED", "BOT", "BUT", "DUB", "DUB"))
 #' myBpGraph2 <- bipartite_graph_from_data_frame(myDataFrame2)
-#' E(myBpGraph2)$Example
+#' igraph::E(myBpGraph2)$Example
 
 bipartite_graph_from_data_frame <- function(x) {
   node1 <- unique(x[, 1L])

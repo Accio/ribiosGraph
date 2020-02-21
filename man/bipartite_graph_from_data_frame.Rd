@@ -26,5 +26,5 @@ myDataFrame2 <- data.frame(Alpha=c("A", "E", "O", "U", "B", "D"),
   Type=c("Vowel", "Vowel", "Vowel", "Vowel", "Consonance", "Consonance"),
   Example=c("BAT", "BED", "BOT", "BUT", "DUB", "DUB"))
 myBpGraph2 <- bipartite_graph_from_data_frame(myDataFrame2)
-E(myBpGraph2)$Example
+igraph::E(myBpGraph2)$Example
 }
