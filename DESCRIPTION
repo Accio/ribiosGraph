@@ -10,7 +10,7 @@ Authors@R:
            email = "jitao_david.zhang@roche.com",
            comment = c(ORCID="0000-0002-3085-0909")))
 Maintainer: Jitao David Zhang <jitao_david.zhang@roche.com>
-Description: Tools to manipulate and visualize graphs (graphs) in the RIBIOS software suite.
+Description: Tools to manipulate and visualize graphs (networks) in the RIBIOS software suite.
 Depends:
     igraph,
     magrittr,
