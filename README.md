@@ -15,5 +15,5 @@ Run following commands in the R console.
 
 ```{R}
 library(devtools)
-devtools::install_github("Accio/ribiosGraph")
+devtools::install_github("bedapub/ribiosGraph")
 ```
